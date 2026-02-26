@@ -20,15 +20,20 @@ Il utilise le modèle **CLIP** (Contrastive Language-Image Pre-training) d'OpenA
 ```bash
 git clone https://github.com/YannPhilipe17/semantic-image-finder.git
 cd semantic-image-finder
-  ```
-2. Créer l'environnement virtuel
-   ```bash
+```
+
+## 2. Créer l'environnement virtuel
+```bash
 python -m venv venv
+```
 
-# Activer l'environnement (Windows)
+## Activer l'environnement (Windows)
+```bash
 .\venv\Scripts\activate
+```
 
-# Activer l'environnement (Mac/Linux)
+## Activer l'environnement (Mac/Linux)
+```bash
 source venv/bin/activate
 ```
 
@@ -45,11 +50,15 @@ Il est fortement recommandé d'utiliser un environnement isolé pour éviter les
 
 ```bash
 python -m venv venv
+```
 
-# Activer l'environnement (Windows)
+#### Activer l'environnement (Windows)
+```bash
 .\venv\Scripts\activate
+```
 
-# Activer l'environnement (Mac/Linux)
+#### Activer l'environnement (Mac/Linux)
+```bash
 source venv/bin/activate
 ```
 
