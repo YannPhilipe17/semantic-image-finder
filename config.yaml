@@ -1,0 +1,6 @@
+model:
+  name: "openai/clip-vit-base-patch32"
+paths:
+  images_dir: "data/images"
+  embeddings_file: "embeddings/image_embeddings.npy"
+  image_paths_file: "embeddings/image_paths.json"

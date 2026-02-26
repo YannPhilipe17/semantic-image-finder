@@ -1,0 +1,13 @@
+# Environnements virtuels
+v_eng/
+venv/
+env/
+
+# Fichiers générés et données locales
+embeddings/
+data/images/
+__pycache__/
+*.pyc
+
+# Fichiers système
+.DS_Store
