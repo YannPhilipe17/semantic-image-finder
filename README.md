@@ -19,4 +19,72 @@ Il utilise le modèle **CLIP** (Contrastive Language-Image Pre-training) d'OpenA
 1. Clonez ce dépôt (ou téléchargez-le) :
 ```bash
 git clone https://github.com/YannPhilipe17/semantic-image-finder.git
+cd semantic-image-finder
   ```
+2. Créer l'environnement virtuel
+   ```bash
+python -m venv venv
+
+# Activer l'environnement (Windows)
+.\venv\Scripts\activate
+
+# Activer l'environnement (Mac/Linux)
+source venv/bin/activate
+```
+Gemini a dit
+C'est parfait ! Ton README commence à avoir fière allure. Pour le rendre vraiment professionnel et aider les autres (ou toi-même dans 6 mois) à réinstaller le projet sans réfléchir, on va ajouter les étapes techniques cruciales : la gestion de l'environnement virtuel, les dépendances et les commandes d'utilisation.
+
+Voici la suite complète pour ton fichier README.md :
+
+Markdown
+## 🛠️ Installation & Configuration
+
+### 1. Cloner le projet
+```bash
+git clone [https://github.com/YannPhilipe17/semantic-image-finder.git](https://github.com/YannPhilipe17/semantic-image-finder.git)
+cd semantic-image-finder
+```
+
+2. Créer l'environnement virtuel
+Il est fortement recommandé d'utiliser un environnement isolé pour éviter les conflits de versions.
+
+```bash
+python -m venv venv
+
+# Activer l'environnement (Windows)
+.\venv\Scripts\activate
+
+# Activer l'environnement (Mac/Linux)
+source venv/bin/activate
+```
+
+3. Installer les dépendances
+```bash
+pip install -r requirements.txt
+```
+
+## Utilisation
+Le projet fonctionne en deux étapes : l'indexation (analyse des images) et la recherche.
+
+**Étape 1 : Indexation**
+Placez vos photos dans le dossier data/images/, puis lancez l'analyse pour générer les empreintes mathématiques (embeddings) :
+
+```bash
+python main.py --index
+```
+
+**Étape 2 : Recherche**
+Lancez une recherche en langage naturel (français ou anglais) :
+
+```bash
+python main.py --search "Une description de votre image"
+```
+
+## Structure 
+semantic-image-finder/
+├── data/images/          # Vos photos à indexer
+├── embeddings/           # Vecteurs générés 
+├── src/                  # Code source (logique, recherche, visualisation)
+├── config.yaml           # Configuration du modèle et des chemins
+└── main.py               # Point d'entrée CLI
+
