@@ -4,17 +4,17 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-orange)
 
-## 📖 À propos
+##  À propos
 Ce projet est un **moteur de recherche d'images sémantique local**. Il vous permet d'utiliser le langage naturel (ex: *"un chat qui dort sur un clavier"*) pour retrouver instantanément une image spécifique dans vos dossiers; ce qui signifit : Fini la recherche fastidieuse par noms de fichiers ou par dates ! 
 
 Il utilise le modèle **CLIP** (Contrastive Language-Image Pre-training) d'OpenAI pour lier la compréhension du texte et de l'image.
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 - **Recherche Sémantique :** Comprend le contexte et le contenu de l'image, pas juste les métadonnées.
 - **100% Local & Privé :** Le modèle tourne sur votre machine. Vos photos personnelles restent chez vous.
 - **Recherche Instantanée :** Pré-calcul des *embeddings* (vecteurs) pour une recherche en quelques millisecondes.
 
-## 🛠️ Installation
+##  Installation
 
 1. Clonez ce dépôt (ou téléchargez-le) :
 ```bash
@@ -31,13 +31,8 @@ python -m venv venv
 # Activer l'environnement (Mac/Linux)
 source venv/bin/activate
 ```
-Gemini a dit
-C'est parfait ! Ton README commence à avoir fière allure. Pour le rendre vraiment professionnel et aider les autres (ou toi-même dans 6 mois) à réinstaller le projet sans réfléchir, on va ajouter les étapes techniques cruciales : la gestion de l'environnement virtuel, les dépendances et les commandes d'utilisation.
 
-Voici la suite complète pour ton fichier README.md :
-
-Markdown
-## 🛠️ Installation & Configuration
+##  Installation & Configuration
 
 ### 1. Cloner le projet
 ```bash
@@ -45,7 +40,7 @@ git clone [https://github.com/YannPhilipe17/semantic-image-finder.git](https://g
 cd semantic-image-finder
 ```
 
-2. Créer l'environnement virtuel
+### 2. Créer l'environnement virtuel
 Il est fortement recommandé d'utiliser un environnement isolé pour éviter les conflits de versions.
 
 ```bash
@@ -58,7 +53,7 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-3. Installer les dépendances
+### 3. Installer les dépendances
 ```bash
 pip install -r requirements.txt
 ```
@@ -80,7 +75,7 @@ Lancez une recherche en langage naturel (français ou anglais) :
 python main.py --search "Une description de votre image"
 ```
 
-## Structure 
+### Structure 
 ```bash
 semantic-image-finder/
 ├── data/images/          # Vos photos à indexer
