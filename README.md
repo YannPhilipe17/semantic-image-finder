@@ -81,10 +81,11 @@ python main.py --search "Une description de votre image"
 ```
 
 ## Structure 
+```bash
 semantic-image-finder/
 ├── data/images/          # Vos photos à indexer
 ├── embeddings/           # Vecteurs générés 
 ├── src/                  # Code source (logique, recherche, visualisation)
 ├── config.yaml           # Configuration du modèle et des chemins
 └── main.py               # Point d'entrée CLI
-
+```
