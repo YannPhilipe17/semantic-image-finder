@@ -18,6 +18,6 @@ Il utilise le modèle **CLIP** (Contrastive Language-Image Pre-training) d'OpenA
 
 1. Clonez ce dépôt (ou téléchargez-le) :
 ```bash
-git clone [https://github.com/YannPhilipe17/image-finder.git](https://github.com/YannPhilipe17/image-finder.git)
-cd image-finder 
+git clone [https://github.com/YannPhilipe17/semantic-image-finder.git](https://github.com/YannPhilipe17//semantic-image-finder.git)
+cd /semantic-image-finder 
   ```
