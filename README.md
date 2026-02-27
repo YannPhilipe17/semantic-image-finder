@@ -10,7 +10,7 @@ Ce projet est un **moteur de recherche d'images sémantique local**. Il vous per
 Il utilise le modèle **CLIP** (Contrastive Language-Image Pre-training) d'OpenAI pour lier la compréhension du texte et de l'image.
 
 ##  Fonctionnalités
-- **Recherche Sémantique :** Comprend le contexte et le contenu de l'image, pas juste les métadonnées.
+- **Recherche Sémantique :** Comprend le contexte et le contenu de l'image.
 - **100% Local & Privé :** Le modèle tourne sur votre machine. Vos photos personnelles restent chez vous.
 - **Recherche Instantanée :** Pré-calcul des *embeddings* (vecteurs) pour une recherche en quelques millisecondes.
 
